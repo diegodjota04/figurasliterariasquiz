@@ -1,5 +1,4 @@
 import { QuizEngine } from './QuizEngine.js';
-import versionsData from '../data/versions.json';
 
 /**
  * ❄️ Módulo de Interfaz y Control de Pantallas True Winter
@@ -136,20 +135,52 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /**
-   * Inicializa la sesión con el alias ingresado y la misión seleccionada.
+   * Inicializa la sesión usando Fetch para cargar los datos
    */
   function handleStartGame() {
     const alias = elements.userAliasInput?.value.trim() || 'Estudiante';
-    const rawQuestions = versionsData[selectedMissionKey] || versionsData['version_a'];
 
-    quizEngine = new QuizEngine(rawQuestions, alias, selectedMissionKey);
-
-    if (elements.userGreetingTag) {
-      elements.userGreetingTag.textContent = `👤 ${quizEngine.alias}`;
+    // Cambiamos el texto del botón temporalmente para indicar carga
+    if (elements.btnStartGame) {
+      elements.btnStartGame.textContent = 'CARGANDO...';
+      elements.btnStartGame.disabled = true;
     }
 
-    showScreen('juego');
-    renderCurrentQuestion();
+    // Opción A: Cargar el JSON de manera asíncrona
+    fetch('versions.json')
+      .then(respuesta => {
+        if (!respuesta.ok) {
+          throw new Error('No se pudo acceder al archivo JSON.');
+        }
+        return respuesta.json();
+      })
+      .then(versionsData => {
+        // Restaurar botón
+        if (elements.btnStartGame) {
+          elements.btnStartGame.textContent = 'COMENZAR JUEGO';
+          elements.btnStartGame.disabled = false;
+        }
+
+        const rawQuestions = versionsData[selectedMissionKey] || versionsData['version_a'];
+        quizEngine = new QuizEngine(rawQuestions, alias, selectedMissionKey);
+
+        if (elements.userGreetingTag) {
+          elements.userGreetingTag.textContent = `👤 ${quizEngine.alias}`;
+        }
+
+        showScreen('juego');
+        renderCurrentQuestion();
+      })
+      .catch(error => {
+        console.error("Error al cargar los datos:", error);
+        alert("Hubo un problema al cargar los ejercicios. Asegúrate de que el archivo JSON esté publicado correctamente.");
+
+        // Restaurar botón en caso de error
+        if (elements.btnStartGame) {
+          elements.btnStartGame.textContent = 'COMENZAR JUEGO';
+          elements.btnStartGame.disabled = false;
+        }
+      });
   }
 
   /**
@@ -182,13 +213,13 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.feedbackModal?.classList.add('hidden');
 
     if (elements.categoryBadge) {
-      elements.categoryBadge.textContent = currentQ.categoria_evaluada === 'significado' 
-        ? 'FIGURA DE SIGNIFICADO' 
+      elements.categoryBadge.textContent = currentQ.categoria_evaluada === 'significado'
+        ? 'FIGURA DE SIGNIFICADO'
         : 'FIGURA DE CONSTRUCCIÓN';
     }
 
     if (elements.enunciadoText) {
-      elements.enunciadoText.textContent = currentQ.enunciado 
+      elements.enunciadoText.textContent = currentQ.enunciado
         || 'Identifica la figura literaria presente en el fragmento destacado:';
     }
 
@@ -263,8 +294,8 @@ document.addEventListener('DOMContentLoaded', () => {
       elements.modalCard.classList.add('correct');
       if (elements.statusIcon) elements.statusIcon.textContent = '✨';
       if (elements.modalTitle) {
-        elements.modalTitle.textContent = result.isBonusQuestion 
-          ? '¡Pregunta Bono Ganada!' 
+        elements.modalTitle.textContent = result.isBonusQuestion
+          ? '¡Pregunta Bono Ganada!'
           : '¡Excelente!';
       }
 
@@ -324,7 +355,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const maxStreak = quizEngine.history.reduce((max, curr) => Math.max(max, curr.streak), 0);
     if (elements.finalStreak) elements.finalStreak.textContent = maxStreak;
 
-    const accuracy = quizEngine.totalAnswered > 0 
+    const accuracy = quizEngine.totalAnswered > 0
       ? Math.round((quizEngine.correctAnswersCount / quizEngine.totalAnswered) * 100)
       : 0;
     if (elements.finalAccuracy) elements.finalAccuracy.textContent = `${accuracy}%`;
