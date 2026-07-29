@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Opción A: Cargar el JSON de manera asíncrona
-    fetch('versions.json')
+    fetch('./src/data/versions.json')
       .then(respuesta => {
         if (!respuesta.ok) {
           throw new Error('No se pudo acceder al archivo JSON.');
