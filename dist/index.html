@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reto Lírico - Quiz de Figuras Literarias</title>
+  <meta name="description" content="Herramienta de análisis lírico en estilo Mobile Trivia Game con paleta True Winter.">
+  
+  <!-- Google Fonts: Poppins (UI) + Lora (Poemas) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <script type="module" crossorigin src="/assets/index-Dm-6_j5L.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-D9eVukf5.css">
+</head>
+<body>
+
+  <div class="mobile-app-shell">
+
+    <!-- 1. PANTALLA DE INICIO (LOGIN / SETUP) -->
+    <section class="pantalla-inicio" id="pantallaInicio">
+      <div class="start-header-badge">
+        <span class="badge-dot"></span>
+        <span>LÍRICA LAB</span>
+      </div>
+
+      <!-- LOGOTIPO EN TEXTO TIPOGRÁFICO MODERNO -->
+      <h1 class="logo-title">RETO LÍRICO</h1>
+      <p class="logo-subtitle">Análisis interactivo de figuras literarias de significado y construcción.</p>
+
+      <form class="setup-form" id="startForm" onsubmit="return false;">
+        
+        <!-- CAMPO DE TEXTO (INPUT PÍLDORA) -->
+        <div class="input-field-group">
+          <label for="userAliasInput" class="field-label">Alias del Estudiante:</label>
+          <input 
+            type="text" 
+            id="userAliasInput" 
+            class="input-pill" 
+            placeholder="Ingresa tu alias..." 
+            required 
+            maxlength="20"
+          />
+        </div>
+
+        <!-- CONTENEDOR SELECCIÓN DE MISIÓN (BOTONES MISIÓN A, B, C) -->
+        <div class="mission-selection-group">
+          <label class="field-label">Selecciona tu Misión:</label>
+          <div class="mission-buttons-grid">
+            <button type="button" class="mission-btn selected" data-mission="version_a">
+              <span class="m-title">Misión A</span>
+              <span class="m-sub">15 Ejercicios</span>
+            </button>
+
+            <button type="button" class="mission-btn" data-mission="version_b">
+              <span class="m-title">Misión B</span>
+              <span class="m-sub">15 Ejercicios</span>
+            </button>
+
+            <button type="button" class="mission-btn" data-mission="version_c">
+              <span class="m-title">Misión C</span>
+              <span class="m-sub">15 Ejercicios</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- BOTÓN PRINCIPAL COMENZAR JUEGO EN AZUL REAL -->
+        <button type="submit" class="btn-primary-blue" id="btnStartGame">
+          COMENZAR JUEGO
+        </button>
+
+      </form>
+    </section>
+
+
+    <!-- 2. PANTALLA DE JUEGO -->
+    <section class="pantalla-juego hidden" id="pantallaJuego">
+
+      <!-- HUD: BANNER FIJO SUPERIOR AZUL REAL DIVIDIDO EN TRES + ALIAS -->
+      <header class="hud-top-banner">
+        <div class="hud-section hud-left" title="Intentos">
+          <svg class="hud-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          <span class="hud-val" id="livesCount">3</span>
+        </div>
+
+        <div class="hud-section hud-center" title="Puntos">
+          <svg class="hud-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          <span class="hud-val" id="scoreValue">0</span>
+        </div>
+
+        <div class="hud-section hud-right" title="Racha">
+          <svg class="hud-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/></svg>
+          <span class="hud-val" id="streakCount">0</span>
+          <span class="multiplier-pill" id="multiplierPill">1.0x</span>
+        </div>
+      </header>
+
+      <!-- ÁREA DE CONTENIDO DE JUEGO -->
+      <main class="game-main-area">
+
+        <!-- CABECERA CON ALIAS DEL JUGADOR -->
+        <div class="player-hud-bar">
+          <span class="player-alias-tag" id="userGreetingTag">👤 Estudiante</span>
+          <span class="category-badge-pill" id="categoryBadge">FIGURA DE SIGNIFICADO</span>
+          <span class="bonus-pill-tag hidden" id="bonusTag">💎 ¡Pregunta Bono!</span>
+        </div>
+
+        <!-- EL POEMA: TARJETA MINIMALISTA BLANCA CON FUENTE SERIF & FUCSIA -->
+        <article class="poem-card-white" id="poemContainer">
+          <div class="poem-header-meta">
+            <span class="poem-meta-icon">📜</span>
+            <span id="instructionHeader">EJERCICIO DE ANÁLISIS</span>
+          </div>
+
+          <p class="instruction-prompt" id="enunciadoText">
+            Identifica la figura literaria presente en el fragmento destacado:
+          </p>
+
+          <blockquote class="poem-text font-serif" id="poemText">
+            <!-- Fragmento con verso <span class="resaltado"> fucsia brillante -->
+          </blockquote>
+        </article>
+
+        <!-- BOTONES DE OPCIONES: GRID INFERIOR 4 PÍLDORAS -->
+        <div class="options-pill-grid" id="optionsGrid">
+          <!-- Botones inyectados dinámicamente -->
+        </div>
+
+        <!-- PROGRESS BAR -->
+        <footer class="stage-footer">
+          <div class="progress-track">
+            <div class="progress-fill" id="progressBarFill" style="width: 0%;"></div>
+          </div>
+          <span class="progress-text-lbl" id="progressText">Poema 1 de 15</span>
+        </footer>
+
+      </main>
+    </section>
+
+
+    <!-- MODAL DE FEEDBACK (POP-UP) -->
+    <div class="modal-backdrop hidden" id="feedbackModal" aria-hidden="true" role="dialog">
+      <div class="modal-dialog-winter" id="modalCard">
+        
+        <div class="modal-banner-header" id="modalBanner">
+          <div class="modal-status-icon" id="statusIcon">✨</div>
+          <h2 class="modal-status-title" id="modalTitle">¡Respuesta Correcta!</h2>
+        </div>
+
+        <div class="modal-body-content">
+          <div class="points-reward-banner hidden" id="pointsBanner">
+            <span class="points-num">+<span id="pointsEarnedVal">0</span> PTS</span>
+            <span class="bonus-msg hidden" id="bonusEarnedText">💎 ¡Bonus de racha aplicado!</span>
+          </div>
+
+          <p class="feedback-text-didactic font-serif" id="feedbackText">
+            Explicación didáctica aquí...
+          </p>
+
+          <div class="correct-answer-pill hidden" id="correctAnswerReveal">
+            <span class="reveal-lbl">Respuesta correcta:</span>
+            <strong id="correctAnswerText">Símil</strong>
+          </div>
+        </div>
+
+        <div class="modal-footer-action">
+          <button class="btn-action-large" id="btnNextQuestion">
+            Siguiente
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- PANTALLA RESUMEN DE FINALIZACIÓN -->
+    <div class="summary-screen-winter hidden" id="summaryScreen">
+      <div class="summary-trophy-icon">🏆</div>
+      <h2 class="summary-heading" id="summaryTitleHeading">¡Misión Completada!</h2>
+      <p class="summary-subtext" id="summarySubtext">
+        Has completado todos los ejercicios de la misión seleccionada.
+      </p>
+
+      <div class="summary-stats-grid">
+        <div class="summary-stat-card">
+          <span class="sum-lbl">PUNTAJE</span>
+          <span class="sum-val" id="finalScore">0</span>
+        </div>
+        <div class="summary-stat-card">
+          <span class="sum-lbl">MÁX RACHA</span>
+          <span class="sum-val" id="finalStreak">0</span>
+        </div>
+        <div class="summary-stat-card">
+          <span class="sum-lbl">PRECISIÓN</span>
+          <span class="sum-val" id="finalAccuracy">0%</span>
+        </div>
+      </div>
+
+      <div class="summary-actions-group">
+        <button class="btn-action-large btn-blue-accent" id="btnRestart">
+          🔄 Volver a Jugar
+        </button>
+        <button class="btn-action-large btn-ebony-accent" id="btnChangeVersion">
+          ⚙️ Cambiar Misión
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

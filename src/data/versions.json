@@ -1,0 +1,728 @@
+{
+  "version_a": [
+    {
+      "id": "A1",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "El mar se convulsiona y ruge,<br><span class=\"resaltado\">la noche se puso íntima<br>como una pequeña plaza</span>.",
+      "opciones": [
+        "Metáfora",
+        "Símil",
+        "Prosopopeya",
+        "Hipérbole"
+      ],
+      "respuesta_correcta": "Símil",
+      "feedback_correcto": "¡Excelente análisis! Es un Símil porque utiliza el nexo explícito 'como' para comparar la noche con una pequeña plaza.",
+      "feedback_incorrecto": "Observa el nexo comparativo explícito 'como' que establece una analogía directa entre dos elementos.",
+      "es_bono": false
+    },
+    {
+      "id": "A2",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">Volverán las oscuras golondrinas</span><br>en tu balcón sus nidos a colgar,<br><span class=\"resaltado\">volverán las tupidas madreselvas</span><br>de tu jardín las tapias a escalar.",
+      "opciones": [
+        "Anáfora",
+        "Reiteración",
+        "Aliteración",
+        "Hipérbaton"
+      ],
+      "respuesta_correcta": "Anáfora",
+      "feedback_correcto": "¡Correcto! Es una Anáfora porque repite la palabra 'Volverán' al inicio de versos consecutivos.",
+      "feedback_incorrecto": "Presta atención a la palabra inicial que se repite al comienzo de diferentes versos.",
+      "es_bono": false
+    },
+    {
+      "id": "A3",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">La tarde casi dormida<br>murmuraba en el jardín</span>,<br>y en la fuente de piedra el agua caía.",
+      "opciones": [
+        "Metáfora",
+        "Prosopopeya",
+        "Epíteto",
+        "Símil"
+      ],
+      "respuesta_correcta": "Prosopopeya",
+      "feedback_correcto": "¡Muy bien! Es una Prosopopeya ya que atribuye facultades humanas ('dormida', 'murmuraba') a 'la tarde'.",
+      "feedback_incorrecto": "Analiza las acciones humanas atribuidas a un elemento inanimado o concepto temporal.",
+      "es_bono": false
+    },
+    {
+      "id": "A4",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">Con el ala aleve del leve abanico</span><br>en la tarde plácida de canícula.",
+      "opciones": [
+        "Aliteración",
+        "Hipérbaton",
+        "Reiteración",
+        "Encabalgamiento"
+      ],
+      "respuesta_correcta": "Aliteración",
+      "feedback_correcto": "¡Gran oído fónico! Es una Aliteración por la repetición intencionada de los sonidos 'l', 'v' y 'a'.",
+      "feedback_incorrecto": "Escucha la repetición de fonemas consonánticos a lo largo del verso para generar musicalidad.",
+      "es_bono": false
+    },
+    {
+      "id": "A5",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "Cultivo una rosa blanca<br>en junio como enero...<br>Y para el cruel que me arranca<br><span class=\"resaltado\">el corazón con que vivo</span>.",
+      "opciones": [
+        "Metáfora",
+        "Hipérbole",
+        "Símil",
+        "Epíteto épico"
+      ],
+      "respuesta_correcta": "Metáfora",
+      "feedback_correcto": "¡Exacto! Es una Metáfora que identifica el dolor o afecto vital con la imagen poética de arrancar el corazón.",
+      "feedback_incorrecto": "No hay nexo comparativo 'como'; se traslada el sentido de una realidad afectiva a una imagen viva.",
+      "es_bono": false
+    },
+    {
+      "id": "A6",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">De este, pues, formidable alto espejo</span><br>de la naturaleza, el monte fiero<br>sus cumbre al cielo alza.",
+      "opciones": [
+        "Hipérbaton",
+        "Encabalgamiento",
+        "Anáfora",
+        "Jitanjáfora"
+      ],
+      "respuesta_correcta": "Hipérbaton",
+      "feedback_correcto": "¡Excelente! Es un Hipérbaton por la alteración drástica del orden sintáctico habitual de la oración.",
+      "feedback_incorrecto": "Intenta reordenar la oración según la sintaxis lógica (Sujeto + Verbo + Complementos).",
+      "es_bono": false
+    },
+    {
+      "id": "A7",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">Érase un hombre a una nariz pegado</span>,<br>érase una nariz superlativa,<br>érase una alquitara medio viva.",
+      "opciones": [
+        "Hipérbole",
+        "Metáfora",
+        "Prosopopeya",
+        "Epíteto"
+      ],
+      "respuesta_correcta": "Hipérbole",
+      "feedback_correcto": "¡Muy bien! Es una Hipérbole debido al extremo desmesurado de la exageración satírica.",
+      "feedback_incorrecto": "Evalúa si la descripción sobrepasa cómicamente los límites de la realidad física.",
+      "es_bono": false
+    },
+    {
+      "id": "A8",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "Y mientras miserable-<br>mente se abrasa el rico en encendida<br><span class=\"resaltado\">codicia, yo a la sombra descansando</span><br>canto al son de la lira.",
+      "opciones": [
+        "Encabalgamiento",
+        "Reiteración",
+        "Aliteración",
+        "Jitanjáfora"
+      ],
+      "respuesta_correcta": "Encabalgamiento",
+      "feedback_correcto": "¡Correcto! Es un Encabalgamiento por la ruptura de la unidad sintáctica entre el verso anterior y el siguiente.",
+      "feedback_incorrecto": "Observa cómo la frase gramatical no concluye en la pausa final del verso anterior.",
+      "es_bono": false
+    },
+    {
+      "id": "A9",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "Por ti <span class=\"resaltado\">la verde hierba, el fresco viento</span>,<br>el blanco lirio y colorada rosa<br>y dulce primavera deseaba.",
+      "opciones": [
+        "Epíteto",
+        "Símil",
+        "Prosopopeya",
+        "Epíteto épico"
+      ],
+      "respuesta_correcta": "Epíteto",
+      "feedback_correcto": "¡Acertaste! Es un Epíteto pues 'verde' y 'fresco' expresan cualidades intrínsecas de 'hierba' y 'viento'.",
+      "feedback_incorrecto": "Fíjate en los adjetivos que resaltan cualidades propias y naturales de los sustantivos.",
+      "es_bono": false
+    },
+    {
+      "id": "A10",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">¡Sóngoro cosongo, songo bé!<br>¡Sóngoro cosongo de mamey!</span><br>¡Cámbia el paso, mayombe!",
+      "opciones": [
+        "Jitanjáfora",
+        "Anáfora",
+        "Aliteración",
+        "Reiteración"
+      ],
+      "respuesta_correcta": "Jitanjáfora",
+      "feedback_correcto": "¡Brillante! Es una Jitanjáfora por el uso de palabras sin sentido conceptual lógico pero ricas en ritmo y sonoridad.",
+      "feedback_incorrecto": "Nota cómo las palabras carecen de significado en el diccionario y buscan un efecto puramente rítmico.",
+      "es_bono": false
+    },
+    {
+      "id": "A11",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "Habló <span class=\"resaltado\">el que en buena hora ciñó espada</span>:<br>—¡Martín Antolínez, sois un vasallo de valía!",
+      "opciones": [
+        "Epíteto épico",
+        "Epíteto",
+        "Prosopopeya",
+        "Metáfora"
+      ],
+      "respuesta_correcta": "Epíteto épico",
+      "feedback_correcto": "¡Muy bien! Es un Epíteto épico, una fórmula fija propia del Cantar de gesta para elogiar al héroe.",
+      "feedback_incorrecto": "Es una locución honorífica célebre usada para ensalzar a la figura del héroe épico.",
+      "es_bono": false
+    },
+    {
+      "id": "A12",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">Caminante, no hay camino, se hace camino al andar.</span><br>Al andar se hace el camino,<br>y al volver la vista atrás...",
+      "opciones": [
+        "Reiteración",
+        "Anáfora",
+        "Hipérbaton",
+        "Encabalgamiento"
+      ],
+      "respuesta_correcta": "Reiteración",
+      "feedback_correcto": "¡Exacto! Es una Reiteración por repetir la palabra 'camino' intencionadamente dentro del mismo verso.",
+      "feedback_incorrecto": "Observa la repetición interna de la palabra dentro de una misma línea versal.",
+      "es_bono": false
+    },
+    {
+      "id": "A13",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "Tu pupila es azul y cuando ríes,<br>su claridad suave me recuerda<br><span class=\"resaltado\">el trémulo fulgor de la mañana<br>que en el mar se refleja como un sueño</span>.",
+      "opciones": [
+        "Símil",
+        "Metáfora",
+        "Hipérbole",
+        "Prosopopeya"
+      ],
+      "respuesta_correcta": "Símil",
+      "feedback_correcto": "¡Pregunta Bono Superada! Es un Símil que compara el reflejo marino con 'un sueño' usando el nexo 'como'.",
+      "feedback_incorrecto": "Busca el nexo 'como' que relaciona la imagen de la luz marina con la experiencia del sueño.",
+      "es_bono": true
+    },
+    {
+      "id": "A14",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">Hombres necios que acusáis</span><br>a la mujer sin razón,<br>sin ver que sois la ocasión<br><span class=\"resaltado\">de lo mismo que culpáis</span>.",
+      "opciones": [
+        "Anáfora",
+        "Hipérbaton",
+        "Aliteración",
+        "Encabalgamiento"
+      ],
+      "respuesta_correcta": "Anáfora",
+      "feedback_correcto": "¡Correcto! Es una Anáfora que reitera estructuras al principio de cláusulas poéticas coordinadas.",
+      "feedback_incorrecto": "Compara el inicio y simetría de las proposiciones poéticas.",
+      "es_bono": false
+    },
+    {
+      "id": "A15",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">La luna vino a la fragua<br>con su polisón de nardos</span>.<br>El niño la mira mira.<br>El niño la está mirando.",
+      "opciones": [
+        "Prosopopeya",
+        "Metáfora",
+        "Epíteto",
+        "Hipérbole"
+      ],
+      "respuesta_correcta": "Prosopopeya",
+      "feedback_correcto": "¡Perfecto! Es una Prosopopeya al personificar a la luna caminando hacia la fragua con atuendo humano.",
+      "feedback_incorrecto": "Identifica las acciones antropomórficas asignadas al astro lunar.",
+      "es_bono": false
+    }
+  ],
+  "version_b": [
+    {
+      "id": "B1",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "Mi verso es de un verde claro<br>y de un carmín encendido:<br><span class=\"resaltado\">mi verso es un ciervo herido</span><br>que busca en el monte amparo.",
+      "opciones": [
+        "Metáfora",
+        "Símil",
+        "Prosopopeya",
+        "Epíteto"
+      ],
+      "respuesta_correcta": "Metáfora",
+      "feedback_correcto": "¡Excelente! Es una Metáfora pura que identifica directamente el verso con un 'ciervo herido'.",
+      "feedback_incorrecto": "No hay partícula de comparación; el verso 'es' directamente el ciervo herido.",
+      "es_bono": false
+    },
+    {
+      "id": "B2",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">En el silencio solo se escuchaba<br>un susurro de abejas que sonaba.</span>",
+      "opciones": [
+        "Aliteración",
+        "Hipérbaton",
+        "Reiteración",
+        "Anáfora"
+      ],
+      "respuesta_correcta": "Aliteración",
+      "feedback_correcto": "¡Bien auditado! Es una Aliteración por la repetición del fonema sibilante 's' para imitar el zumbido.",
+      "feedback_incorrecto": "Nota la repetición constante de la letra 's' imitando el sonido ambiental de las abejas.",
+      "es_bono": false
+    },
+    {
+      "id": "B3",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "Por una mirada, un mundo;<br>por una sonrisa, un cielo;<br><span class=\"resaltado\">por un beso... ¡yo no sé<br>qué te diera por un beso!</span>",
+      "opciones": [
+        "Hipérbole",
+        "Metáfora",
+        "Símil",
+        "Prosopopeya"
+      ],
+      "respuesta_correcta": "Hipérbole",
+      "feedback_correcto": "¡Correcto! Es una Hipérbole que sobredimensiona desmesuradamente el valor poético del amor.",
+      "feedback_incorrecto": "Analiza la magnitud del ofrecimiento: sobrepasa la realidad objetiva para acentuar la pasión.",
+      "es_bono": false
+    },
+    {
+      "id": "B4",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">Este que ves, engaño colorido</span>,<br>que del arte galando las primores,<br>con falsos silogismos de colores<br>es cautioso engaño del sentido.",
+      "opciones": [
+        "Hipérbaton",
+        "Encabalgamiento",
+        "Anáfora",
+        "Reiteración"
+      ],
+      "respuesta_correcta": "Hipérbaton",
+      "feedback_correcto": "¡Muy bien! Es un Hipérbaton debido al desorden barroco deliberado en la sintaxis de la frase.",
+      "feedback_incorrecto": "Intenta reorganizar los términos en el orden gramatical estándar.",
+      "es_bono": false
+    },
+    {
+      "id": "B5",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">El río Guadalquivir<br>tiene las barbas de granate</span>.<br>Los dos ríos de Granada<br>uno llanto y otro sangre.",
+      "opciones": [
+        "Prosopopeya",
+        "Metáfora",
+        "Hipérbole",
+        "Símil"
+      ],
+      "respuesta_correcta": "Prosopopeya",
+      "feedback_correcto": "¡Acertaste! Es una Prosopopeya al otorgarle un elemento anatómico humano ('barbas') al río.",
+      "feedback_incorrecto": "Observa el rasgo físico de las personas atribuido a un cauce fluvial.",
+      "es_bono": false
+    },
+    {
+      "id": "B6",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">Yo soy un hombre sincero</span><br>de donde crece la palma,<br><span class=\"resaltado\">yo soy un hombre sincero</span><br>antes de morirme quiero<br>echar mis versos del alma.",
+      "opciones": [
+        "Anáfora",
+        "Reiteración",
+        "Aliteración",
+        "Encabalgamiento"
+      ],
+      "respuesta_correcta": "Anáfora",
+      "feedback_correcto": "¡Exacto! Es una Anáfora por la repetición del verso 'Yo soy un hombre sincero' al inicio de estrofas.",
+      "feedback_incorrecto": "Compara el arranque del verso 1 con el verso 3.",
+      "es_bono": false
+    },
+    {
+      "id": "B7",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "Allí habló Martín Antolínez, ese burgalés natural:<br>—¡Oíd, <span class=\"resaltado\">Cid Campeador, en buen hora nacisteis</span>!<br>Noche pasemos aquí y al alba cabalgaremos.",
+      "opciones": [
+        "Epíteto épico",
+        "Epíteto",
+        "Prosopopeya",
+        "Metáfora"
+      ],
+      "respuesta_correcta": "Epíteto épico",
+      "feedback_correcto": "¡Gran trabajo! Es un Epíteto épico, fórmula distintiva del cantar caballeresco medieval.",
+      "feedback_incorrecto": "Es el elogio tradicional ritualizado aplicado a la figura del Cid Campeador.",
+      "es_bono": false
+    },
+    {
+      "id": "B8",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "Buscando mis amores<br><span class=\"resaltado\">iré por esos montes y riberas</span>;<br>ni cogeré las flores,<br>ni temeré las fieras,<br>y pasaré los fuertes y fronteras.",
+      "opciones": [
+        "Encabalgamiento",
+        "Hipérbaton",
+        "Anáfora",
+        "Jitanjáfora"
+      ],
+      "respuesta_correcta": "Encabalgamiento",
+      "feedback_correcto": "¡Muy bien! Es un Encabalgamiento porque la idea verbal requiere continuar sin pausa en el verso 2.",
+      "feedback_incorrecto": "La oración necesita pasar al siguiente verso para completar el objeto del verbo 'iré'.",
+      "es_bono": false
+    },
+    {
+      "id": "B9",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "Puedo escribir los versos más tristes esta noche.<br><span class=\"resaltado\">El viento de la noche gira en el cielo y canta<br>como una flecha de plata</span>.",
+      "opciones": [
+        "Símil",
+        "Metáfora",
+        "Prosopopeya",
+        "Hipérbole"
+      ],
+      "respuesta_correcta": "Símil",
+      "feedback_correcto": "¡Correcto! Es un Símil que compara el giro del viento con una flecha usando el nexo 'como'.",
+      "feedback_incorrecto": "Nota la presencia de la conjunción de enlace comparativa 'como'.",
+      "es_bono": false
+    },
+    {
+      "id": "B10",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">Filiflama alabe canta zizania,<br>ala lula alabe lú</span>.<br>Elbaunita la cantárida<br>filiflama alabe lú.",
+      "opciones": [
+        "Jitanjáfora",
+        "Aliteración",
+        "Reiteración",
+        "Anáfora"
+      ],
+      "respuesta_correcta": "Jitanjáfora",
+      "feedback_correcto": "¡Bono Conquistado! Es una Jitanjáfora compuesta por vocablos creados puramente por su sonoridad lírica.",
+      "feedback_incorrecto": "Estas palabras no poseen traducción literal; son un juego de sonoridad poética.",
+      "es_bono": true
+    },
+    {
+      "id": "B11",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">La blanca nieve y la fría escarcha</span><br>cubren los campos de la patria mía<br>cuando el invierno avanza.",
+      "opciones": [
+        "Epíteto",
+        "Metáfora",
+        "Epíteto épico",
+        "Símil"
+      ],
+      "respuesta_correcta": "Epíteto",
+      "feedback_correcto": "¡Perfecto! Es un Epíteto ya que 'blanca' y 'fría' expresan cualidades consustanciales a la nieve y escarcha.",
+      "feedback_incorrecto": "Analiza cómo los adjetivos expresan la naturaleza inherente del elemento.",
+      "es_bono": false
+    },
+    {
+      "id": "B12",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "La princesa está triste... ¿Qué tendrá la princesa?<br><span class=\"resaltado\">Los suspiros se escapan de su boca de fresa</span>,<br>que ha perdido la risa, que ha perdido el color.",
+      "opciones": [
+        "Reiteración",
+        "Anáfora",
+        "Aliteración",
+        "Encabalgamiento"
+      ],
+      "respuesta_correcta": "Reiteración",
+      "feedback_correcto": "¡Acertaste! Es una Reiteración por la repetición de palabras en cláusulas rítmicas del verso.",
+      "feedback_incorrecto": "Nota las repeticiones internas de estructuras y vocablos dentro de las líneas poéticas.",
+      "es_bono": false
+    },
+    {
+      "id": "B13",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">Las piquetas de los gallos cavan buscando la aurora</span>,<br>cuando por el monte oscuro<br>baja Soledad Montoya.",
+      "opciones": [
+        "Metáfora",
+        "Prosopopeya",
+        "Símil",
+        "Hipérbole"
+      ],
+      "respuesta_correcta": "Metáfora",
+      "feedback_correcto": "¡Excelente! Es una Metáfora lorquiana que transforma el canto del gallo en 'piquetas que cavan'.",
+      "feedback_incorrecto": "Se establece una relación de identidad directa sin partículas comparativas.",
+      "es_bono": false
+    },
+    {
+      "id": "B14",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">Cerrar podrá mis ojos la última<br>sombra</span> que me llevare el blanco día,<br>y podrá desatar esta alma mía<br>hora a su afán ansioso lisonjera.",
+      "opciones": [
+        "Hipérbaton",
+        "Encabalgamiento",
+        "Aliteración",
+        "Anáfora"
+      ],
+      "respuesta_correcta": "Hipérbaton",
+      "feedback_correcto": "¡Gran análisis! Es un Hipérbaton por la inversión completa del orden sintáctico ('Cerrar podrá mis ojos...').",
+      "feedback_incorrecto": "Intenta estructurar: 'La última sombra podrá cerrar mis ojos...'. El desorden es la clave.",
+      "es_bono": false
+    },
+    {
+      "id": "B15",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "La brisa viene y va sobre los trigos<br><span class=\"resaltado\">como una mano suave de madre</span><br>que acaricia al niño dormido.",
+      "opciones": [
+        "Símil",
+        "Prosopopeya",
+        "Metáfora",
+        "Epíteto"
+      ],
+      "respuesta_correcta": "Símil",
+      "feedback_correcto": "¡Pregunta Bono Superada! Es un Símil al comparar la brisa suave con la caricia materna usando 'como'.",
+      "feedback_incorrecto": "Observa el nexo de comparación explícita 'como'.",
+      "es_bono": true
+    }
+  ],
+  "version_c": [
+    {
+      "id": "C1",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">Tanto dolor se agrupa en mi costado,<br>que por doler me duele hasta el aliento</span>.<br>Un manotazo duro, un golpe helado...",
+      "opciones": [
+        "Hipérbole",
+        "Metáfora",
+        "Prosopopeya",
+        "Epíteto"
+      ],
+      "respuesta_correcta": "Hipérbole",
+      "feedback_correcto": "¡Extraordinario! Es una Hipérbole debido al sentimiento agudo llevado al límite de doler 'hasta el aliento'.",
+      "feedback_incorrecto": "Analiza la intensificación exagerada y dolorosa que sobrepasa lo físicamente posible.",
+      "es_bono": false
+    },
+    {
+      "id": "C2",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">Para la libertad me desangro</span>,<br>para la libertad me consumo,<br><span class=\"resaltado\">para la libertad me levanto</span><br>con la herida abierta en el pecho.",
+      "opciones": [
+        "Anáfora",
+        "Reiteración",
+        "Hipérbaton",
+        "Encabalgamiento"
+      ],
+      "respuesta_correcta": "Anáfora",
+      "feedback_correcto": "¡Correcto! Es una Anáfora por repetir 'Para la libertad' al principio de los versos.",
+      "feedback_incorrecto": "Observa el sintagma inicial que encabeza de forma idéntica las líneas poéticas.",
+      "es_bono": false
+    },
+    {
+      "id": "C3",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "Tu cuerpo brilla al sol<br><span class=\"resaltado\">como un río de luz en la montaña</span>,<br>caminas alta y pura entre la sombra.",
+      "opciones": [
+        "Símil",
+        "Metáfora",
+        "Prosopopeya",
+        "Epíteto épico"
+      ],
+      "respuesta_correcta": "Símil",
+      "feedback_correcto": "¡Muy bien! Es un Símil que compara el cuerpo iluminado con un río de luz mediante el nexo 'como'.",
+      "feedback_incorrecto": "Identifica la palabra de enlace comparativo 'como'.",
+      "es_bono": false
+    },
+    {
+      "id": "C4",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">El mar como un vasto cristal azogado<br>refleja la lámina de un cielo de zinc</span>.",
+      "opciones": [
+        "Aliteración",
+        "Hipérbaton",
+        "Reiteración",
+        "Jitanjáfora"
+      ],
+      "respuesta_correcta": "Aliteración",
+      "feedback_correcto": "¡Gran trabajo fónico! Es una Aliteración por la repetición del sonido 'z' y 'k' recreando la textura metálica.",
+      "feedback_incorrecto": "Presta atención a la musicalidad del verso y la repetición fonética consonántica.",
+      "es_bono": false
+    },
+    {
+      "id": "C5",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">El viento de la tarde suspiraba amargamente</span><br>entre las ramas secas del gran olmo.",
+      "opciones": [
+        "Prosopopeya",
+        "Metáfora",
+        "Símil",
+        "Hipérbole"
+      ],
+      "respuesta_correcta": "Prosopopeya",
+      "feedback_correcto": "¡Perfecto! Es una Prosopopeya al dotar al viento de la capacidad humana de 'suspirar amargamente'.",
+      "feedback_incorrecto": "Reflexiona sobre si el viento puede expresar emociones humanas como el suspiro.",
+      "es_bono": false
+    },
+    {
+      "id": "C6",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "Hay golpes en la vida, tan fuertes... ¡Yo no sé!<br>Golpes como del odio de Dios; como si ante ellos,<br><span class=\"resaltado\">la resaca de todo lo sufrido<br>se empozara en el alma</span>...",
+      "opciones": [
+        "Encabalgamiento",
+        "Hipérbaton",
+        "Aliteración",
+        "Anáfora"
+      ],
+      "respuesta_correcta": "Encabalgamiento",
+      "feedback_correcto": "¡Exacto! Es un Encabalgamiento ya que el sujeto del verso 3 requiere encadenarse directamente con el verbo del verso 4.",
+      "feedback_incorrecto": "Observa la continuidad gramatical que sobrepasa el límite final del verso.",
+      "es_bono": false
+    },
+    {
+      "id": "C7",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">La negra sombra me asombra</span>,<br>en la pared se dibuja<br>y sobre el lecho me busca.",
+      "opciones": [
+        "Epíteto",
+        "Símil",
+        "Hipérbole",
+        "Epíteto épico"
+      ],
+      "respuesta_correcta": "Epíteto",
+      "feedback_correcto": "¡Bien visto! Es un Epíteto al calificar a la 'sombra' con la cualidad intrínseca de 'negra'.",
+      "feedback_incorrecto": "El adjetivo 'negra' enfatiza una cualidad consustancial de la sombra.",
+      "es_bono": false
+    },
+    {
+      "id": "C8",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">Pasos de un peregrino son errante</span>,<br>cuantos en este libro consagrado<br>versos dicto a la musa.",
+      "opciones": [
+        "Hipérbaton",
+        "Encabalgamiento",
+        "Reiteración",
+        "Anáfora"
+      ],
+      "respuesta_correcta": "Hipérbaton",
+      "feedback_correcto": "¡Acertaste! Es un Hipérbaton típico de Góngora que retuerce el orden tradicional de las palabras.",
+      "feedback_incorrecto": "Busca restablecer el sujeto y el verbo en su posición común en español.",
+      "es_bono": false
+    },
+    {
+      "id": "C9",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "Nuestras vidas son los ríos<br>que van a dar en la mar,<br><span class=\"resaltado\">que es el morir</span>.",
+      "opciones": [
+        "Metáfora",
+        "Prosopopeya",
+        "Símil",
+        "Epíteto"
+      ],
+      "respuesta_correcta": "Metáfora",
+      "feedback_correcto": "¡Bono Conquistado! Es una Metáfora célebre que identifica la mar con la muerte y las vidas con los ríos.",
+      "feedback_incorrecto": "Identifica la equivalencia poética directa sin nexo comparativo.",
+      "es_bono": true
+    },
+    {
+      "id": "C10",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">Yambambó, yambambé!<br>Repica el bongó yambambó</span>.<br>El negro canta y se ajunta.",
+      "opciones": [
+        "Jitanjáfora",
+        "Reiteración",
+        "Aliteración",
+        "Anáfora"
+      ],
+      "respuesta_correcta": "Jitanjáfora",
+      "feedback_correcto": "¡Brillante! Es una Jitanjáfora afroantillana que destaca por su ritmo percusivo y fónico.",
+      "feedback_incorrecto": "Son invenciones onomatopéyicas y rítmicas sin valor semántico de diccionario.",
+      "es_bono": false
+    },
+    {
+      "id": "C11",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "Allí habló <span class=\"resaltado\">el de la barba bellida</span>:<br>—¡Oíd, mis caballeros, no dudéis en el combate!",
+      "opciones": [
+        "Epíteto épico",
+        "Epíteto",
+        "Prosopopeya",
+        "Metáfora"
+      ],
+      "respuesta_correcta": "Epíteto épico",
+      "feedback_correcto": "¡Excelente! Es un Epíteto épico usado en la poesía de mester de juglaría para caracterizar al Cid.",
+      "feedback_incorrecto": "Fórmula fija de caracterización laudatoria propia de los cantares de gesta.",
+      "es_bono": false
+    },
+    {
+      "id": "C12",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "Compañera,<br><span class=\"resaltado\">usted sabe que puede contar conmigo</span>,<br>no hasta dos o hasta diez<br>sino contar conmigo.",
+      "opciones": [
+        "Reiteración",
+        "Anáfora",
+        "Aliteración",
+        "Hipérbaton"
+      ],
+      "respuesta_correcta": "Reiteración",
+      "feedback_correcto": "¡Muy bien! Es una Reiteración por la repetición de la locución verbal a lo largo de la estrofa.",
+      "feedback_incorrecto": "Presta atención a las repeticiones del grupo de palabras a nivel interno.",
+      "es_bono": false
+    },
+    {
+      "id": "C13",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "Antes que tú me moriré: mi sangre<br><span class=\"resaltado\">se irá evaporando como gota de agua</span><br>sobre la arena ardiente.",
+      "opciones": [
+        "Símil",
+        "Metáfora",
+        "Prosopopeya",
+        "Hipérbole"
+      ],
+      "respuesta_correcta": "Símil",
+      "feedback_correcto": "¡Correcto! Es un Símil que compara la evaporación de la sangre con la gota de agua usando 'como'.",
+      "feedback_incorrecto": "Comprueba el uso del conector explícito 'como'.",
+      "es_bono": false
+    },
+    {
+      "id": "C14",
+      "categoria_evaluada": "construcción",
+      "enunciado": "Identifica la figura literaria de construcción presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">A las cinco de la tarde</span>.<br>Eran las cinco en punto de la tarde.<br><span class=\"resaltado\">A las cinco de la tarde</span>.",
+      "opciones": [
+        "Anáfora",
+        "Reiteración",
+        "Aliteración",
+        "Encabalgamiento"
+      ],
+      "respuesta_correcta": "Anáfora",
+      "feedback_correcto": "¡Gran trabajo! Es una Anáfora por el mítico estribillo inicial de Lorca.",
+      "feedback_incorrecto": "Identifica la repetición exacta al inicio de las distintas líneas poéticas.",
+      "es_bono": false
+    },
+    {
+      "id": "C15",
+      "categoria_evaluada": "significado",
+      "enunciado": "Identifica la figura literaria de significado presente en el fragmento destacado:",
+      "poema_fragmento": "<span class=\"resaltado\">En su llama mortal la luz te envuelve</span>.<br>Absorta, pálida doliente, así situada<br>contra las viejas hélices del crepúsculo.",
+      "opciones": [
+        "Metáfora",
+        "Símil",
+        "Prosopopeya",
+        "Epíteto épico"
+      ],
+      "respuesta_correcta": "Metáfora",
+      "feedback_correcto": "¡Pregunta Bono Superada! Es una Metáfora nerudiana que identifica la atmósfera luminosa con una 'llama mortal'.",
+      "feedback_incorrecto": "No existe nexo comparativo; la luz se concibe poéticamente como llama mortal.",
+      "es_bono": true
+    }
+  ]
+}

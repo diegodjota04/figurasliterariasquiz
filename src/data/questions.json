@@ -1,0 +1,282 @@
+[
+  {
+    "id": "ejercicio_01",
+    "poema_fragmento": "Sus muslos se me escapaban<br><span class=\"resaltado\">como peces sorprendidos</span>,<br>la mitad llenos de lumbre,<br>la mitad llenos de frío.",
+    "opciones": [
+      "Metáfora",
+      "Símil",
+      "Prosopopeya",
+      "Hipérbole"
+    ],
+    "respuesta_correcta": "Símil",
+    "feedback_correcto": "¡Excelente análisis! Es un Símil o Comparación porque utiliza el nexo explícito 'como' para comparar directamente la agilidad y evasividad de los muslos con peces sorprendidos.",
+    "feedback_incorrecto": "Observa con atención el verso resaltado: hay una palabra clave de enlace que establece una comparación explícita entre dos elementos. Busca si existe un nexo comparativo como 'como' o 'cual'.",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_02",
+    "poema_fragmento": "Habló <span class=\"resaltado\">el que en buena hora ciñó espada</span>:<br>—¡Martín Antolínez, sois un vasallo de valía!<br>Si yo vivo, os he de doblar la paga.",
+    "opciones": [
+      "Epíteto épico",
+      "Anáfora",
+      "Hipérbaton",
+      "Encabalgamiento"
+    ],
+    "respuesta_correcta": "Epíteto épico",
+    "feedback_correcto": "¡Correcto! Es un Epíteto épico porque es una fórmula honorífica fija propia del Cantar de mio Cid que ensalza las virtudes caballerescas y heroicas del protagonista.",
+    "feedback_incorrecto": "Analiza a quién se refiere la expresión resaltada. No es una adjetivación común ni una comparación; es una fórmula tradicional prefijada utilizada en los cantares de gesta para elogiar al héroe.",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_03",
+    "poema_fragmento": "El mar duerme sonriendo,<br><span class=\"resaltado\">la tarde todavía da clase en el colegio</span>,<br>y las estrellas miran curiosas.",
+    "opciones": [
+      "Metáfora",
+      "Hipérbole",
+      "Prosopopeya",
+      "Símil"
+    ],
+    "respuesta_correcta": "Prosopopeya",
+    "feedback_correcto": "¡Muy bien! Es una Prosopopeya o Personificación porque le atribuye una acción puramente humana ('dar clase en el colegio') a un elemento inanimado o concepto abstracto como 'la tarde'.",
+    "feedback_incorrecto": "Fíjate en las acciones que realiza el sujeto del verso resaltado. ¿Puede una entidad inanimada o temporal realizar actividades propias de las personas?",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_04",
+    "poema_fragmento": "<span class=\"resaltado\">Las piquetas de los gallos cavan buscando la aurora</span>,<br>cuando por el monte oscuro<br>baja Soledad Montoya.",
+    "opciones": [
+      "Símil",
+      "Metáfora",
+      "Hipérbole",
+      "Prosopopeya"
+    ],
+    "respuesta_correcta": "Metáfora",
+    "feedback_correcto": "¡Acertaste! Es una Metáfora porque identifica el canto matutino del gallo con 'piquetas que cavan' para abrir paso al amanecer, creando una relación de identidad directa sin nexos de comparación.",
+    "feedback_incorrecto": "Revisa si hay algún enlace comparativo explícito (como 'como' o 'se parece a'). Al no haberlo, se está transformando directamente la realidad de un objeto o acción en otra mediante el lenguaje figurado.",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_05",
+    "poema_fragmento": "<span class=\"resaltado\">Érase un hombre a una nariz pegado</span>,<br>érase una nariz superlativa,<br>érase una alquitara medio viva,<br>érase un peje espada muy barbado.",
+    "opciones": [
+      "Hipérbole",
+      "Prosopopeya",
+      "Metáfora",
+      "Símil"
+    ],
+    "respuesta_correcta": "Hipérbole",
+    "feedback_correcto": "¡Exacto! Es una Hipérbole debido al grado extremo de exageración con el que se describe el tamaño de la nariz, invirtiendo la realidad al decir que el hombre está pegado a la nariz y no al revés.",
+    "feedback_incorrecto": "Considera si la imagen presentada en el texto es físicamente posible o si el poeta está exagerando desmesuradamente la realidad para causar un efecto cómico o satírico.",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_06",
+    "poema_fragmento": "Por ti <span class=\"resaltado\">la verde hierba, el fresco viento</span>,<br>el blanco lirio y colorada rosa<br>y dulce primavera deseaba.",
+    "opciones": [
+      "Hipérbaton",
+      "Anáfora",
+      "Epíteto",
+      "Reiteración"
+    ],
+    "respuesta_correcta": "Epíteto",
+    "feedback_correcto": "¡Muy bien visto! Es un Epíteto porque empareja adjetivos calificativos ('verde', 'fresco') que expresan cualidades inherentes y naturales de los sustantivos a los que acompañan ('hierba', 'viento').",
+    "feedback_incorrecto": "Presta atención a los adjetivos que acompañan a cada sustantivo. ¿Aportan una información totalmente novedosa o destacan una cualidad propia y natural de ese objeto?",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_07",
+    "poema_fragmento": "<span class=\"resaltado\">Mientras las ondas de la luz al beso</span><br>palpiten encendidas,<br><span class=\"resaltado\">mientras el sol las desgarradas nubes</span><br>de fuego y oro vista...",
+    "opciones": [
+      "Anáfora",
+      "Encabalgamiento",
+      "Jitanjáfora",
+      "Aliteración"
+    ],
+    "respuesta_correcta": "Anáfora",
+    "feedback_correcto": "¡Bien identificado! Es una Anáfora porque consiste en la repetición intencionada de la misma palabra ('Mientras') al inicio de versos consecutivos.",
+    "feedback_incorrecto": "Compara el inicio de los versos resaltados. ¿Qué patrón observas al comienzo de cada una de las líneas poéticas?",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_08",
+    "poema_fragmento": "<span class=\"resaltado\">Caminante, no hay camino, se hace camino al andar.</span><br>Al andar se hace el camino,<br>y al volver la vista atrás<br>se ve la senda que nunca se ha de volver a pisar.",
+    "opciones": [
+      "Anáfora",
+      "Reiteración",
+      "Jitanjáfora",
+      "Epíteto épico"
+    ],
+    "respuesta_correcta": "Reiteración",
+    "feedback_correcto": "¡Correcto! Es una Reiteración porque la palabra 'camino' se repite intencionadamente dentro del mismo verso para dar énfasis y sonoridad a la idea central.",
+    "feedback_incorrecto": "Observa las palabras repetidas dentro de la misma línea o verso (no al principio de líneas distintas). ¿Qué término se reitera internamente en el verso resaltado?",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_09",
+    "poema_fragmento": "<span class=\"resaltado\">Con el ala aleve del leve abanico</span><br>en la tarde dorada y calurosa,<br>la princesa suspira alegremente.",
+    "opciones": [
+      "Aliteración",
+      "Hipérbaton",
+      "Reiteración",
+      "Encabalgamiento"
+    ],
+    "respuesta_correcta": "Aliteración",
+    "feedback_correcto": "¡Excelente oído musical! Es una Aliteración porque busca provocar un efecto fónico mediante la repetición constante de los sonidos consonánticos y vocálicos 'l', 'v' y 'a' en un mismo verso.",
+    "feedback_incorrecto": "Lee el verso en voz alta y presta atención a la acústica. ¿Hay algún sonido o fonema que se repita de forma notable a lo largo de las palabras?",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_10",
+    "poema_fragmento": "Y mientras miserable-<br>mente se abrasa el rico en encendida<br><span class=\"resaltado\">codicia, yo a la sombra descansando</span><br>canto de mi lira al son.",
+    "opciones": [
+      "Encabalgamiento",
+      "Hipérbaton",
+      "Epíteto",
+      "Aliteración"
+    ],
+    "respuesta_correcta": "Encabalgamiento",
+    "feedback_correcto": "¡Muy bien! Es un Encabalgamiento porque la unidad sintáctica no concluye al final del verso ('encendida'), sino que continúa en el verso siguiente ('codicia'), rompiendo la pausa versal habitual.",
+    "feedback_incorrecto": "Analiza la continuidad de la oración entre el verso anterior y el resaltado. ¿Termina la idea completa en la última palabra del verso o se pausa abruptamente a mitad de la frase gramatical?",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_11",
+    "poema_fragmento": "<span class=\"resaltado\">Volverán las oscuras golondrinas<br>en tu balcón sus nidos a colgar</span>,<br>y otra vez con el ala a sus cristales<br>jugando llamarán.",
+    "opciones": [
+      "Hipérbaton",
+      "Epíteto",
+      "Anáfora",
+      "Aliteración"
+    ],
+    "respuesta_correcta": "Hipérbaton",
+    "feedback_correcto": "¡Gran trabajo! Es un Hipérbaton porque altera el orden sintáctico habitual (Sujeto + Verbo + Complementos), anteponiendo el complemento circunstancial y el infinitivo al final ('en tu balcón sus nidos a colgar' en lugar de 'a colgar sus nidos en tu balcón').",
+    "feedback_incorrecto": "Intenta reordenar la frase gramaticalmente de manera tradicional (Sujeto + Verbo + Objeto). ¿Notas algún cambio deliberado en la secuencia lógica de las palabras?",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_12",
+    "poema_fragmento": "<span class=\"resaltado\">¡Sóngoro cosongo, songo bé!<br>¡Sóngoro cosongo de mamey!</span><br>Cámbia el paso, mayombe,<br>¡que la noche ya se fue!",
+    "opciones": [
+      "Epíteto épico",
+      "Jitanjáfora",
+      "Reiteración",
+      "Encabalgamiento"
+    ],
+    "respuesta_correcta": "Jitanjáfora",
+    "feedback_correcto": "¡Brillante! Es una Jitanjáfora porque utiliza creaciones léxicas sin un significado conceptual lógico ('Sóngoro cosongo, songo bé'), cuyo valor es puramente rítmico, fonético y musical.",
+    "feedback_incorrecto": "Busca el significado literal del texto resaltado en el diccionario. ¿Tienen esas palabras un sentido semántico conceptual o destacan primordialmente por su sonoridad y ritmo afrocaribeño?",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_13",
+    "poema_fragmento": "Tu pupila es azul y cuando ríes,<br>su claridad suave me recuerda<br><span class=\"resaltado\">el trémulo fulgor de la mañana<br>que en el mar se refleja como un sueño</span>.",
+    "opciones": [
+      "Símil",
+      "Metáfora",
+      "Hipérbole",
+      "Prosopopeya"
+    ],
+    "respuesta_correcta": "Símil",
+    "feedback_correcto": "¡Pregunta Bono Superada! Es un Símil porque compara expresamente el reflejo del fulgor matutino en el mar con la ingravidez de 'un sueño', valiéndose de la palabra comparativa 'como'. ¡Sumas +300 puntos extra!",
+    "feedback_incorrecto": "Identifica el nexo gramatical que une la luz del mar con la idea de la experiencia del sueño. ¿Se relacionan directamente o hay una partícula de comparación explícita?",
+    "es_bono": true
+  },
+  {
+    "id": "ejercicio_14",
+    "poema_fragmento": "Mi verso es de un verde claro<br>y de un carmín encendido:<br><span class=\"resaltado\">mi verso es un ciervo herido</span><br>que busca en el monte amparo.",
+    "opciones": [
+      "Metáfora",
+      "Prosopopeya",
+      "Hipérbole",
+      "Símil"
+    ],
+    "respuesta_correcta": "Metáfora",
+    "feedback_correcto": "¡Correcto! Es una Metáfora (Metáfora impura A es B) porque afirma directamente que el verso 'es un ciervo herido', igualando ambos términos de manera poética sin usar nexos como 'parece' o 'como'.",
+    "feedback_incorrecto": "Observa la estructura del verso: 'mi verso es un ciervo herido'. ¿Existe alguna conjunción comparativa de enlace o se establece una equivalencia directa e idéntica entre la poesía y el animal?",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_15",
+    "poema_fragmento": "<span class=\"resaltado\">El río Guadalquivir<br>tiene las barbas de granate</span>.<br>Los dos ríos de Granada<br>uno llanto y otro sangre.",
+    "opciones": [
+      "Hipérbole",
+      "Prosopopeya",
+      "Metáfora",
+      "Símil"
+    ],
+    "respuesta_correcta": "Prosopopeya",
+    "feedback_correcto": "¡Perfecto! Es una Prosopopeya ya que atribuye un rasgo físico y humano ('barbas') a un ente geográfico e inanimado como es un río.",
+    "feedback_incorrecto": "Verifica qué elemento de la naturaleza está siendo descrito. ¿Puede un río poseer rasgos o atributos anatómicos característicos del cuerpo humano?",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_16",
+    "poema_fragmento": "<span class=\"resaltado\">Yo soy un hombre sincero</span><br>de donde crece la palma,<br><span class=\"resaltado\">yo soy un hombre sincero</span><br>antes de morirme quiero<br>echar mis versos del alma.",
+    "opciones": [
+      "Anáfora",
+      "Epíteto",
+      "Hipérbaton",
+      "Aliteración"
+    ],
+    "respuesta_correcta": "Anáfora",
+    "feedback_correcto": "¡Exacto! Es una Anáfora debido a la repetición exacta de la cláusula 'Yo soy un hombre sincero' al comienzo de versos intercalados dentro de la estrofa.",
+    "feedback_incorrecto": "Compara la primera línea con la tercera línea de la estrofa. ¿Qué concordancia o repetición verbal exacta encuentras al inicio de estos versos?",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_17",
+    "poema_fragmento": "Por una mirada, un mundo;<br>por una sonrisa, un cielo;<br><span class=\"resaltado\">por un beso... ¡yo no sé<br>qué te diera por un beso!</span>",
+    "opciones": [
+      "Hipérbole",
+      "Metáfora",
+      "Símil",
+      "Prosopopeya"
+    ],
+    "respuesta_correcta": "Hipérbole",
+    "feedback_correcto": "¡Genial! ¡Pregunta Bono completada! Es una Hipérbole porque intensifica de forma desmesurada el valor de las demostraciones de afecto, expresando un sentimiento desbordante imposible en la realidad física.",
+    "feedback_incorrecto": "Analiza la magnitud de lo que se ofrece a cambio de un gesto afectivo. ¿Es una proporción realista o sobrepasa los límites de lo posible para magnificar la emoción?",
+    "es_bono": true
+  },
+  {
+    "id": "ejercicio_18",
+    "poema_fragmento": "Allí habló Martín Antolínez, ese burgalés natural:<br>—¡Oíd, <span class=\"resaltado\">Cid Campeador, en buen hora nacisteis</span>!<br>Noche pasemos aquí y al alba cabalgaremos.",
+    "opciones": [
+      "Epíteto épico",
+      "Anáfora",
+      "Encabalgamiento",
+      "Aliteración"
+    ],
+    "respuesta_correcta": "Epíteto épico",
+    "feedback_correcto": "¡Correcto! Es un Epíteto épico porque emplea la fórmula apelativa tradicional 'en buen hora nacisteis' para ensalzar la predestinación y heroísmo del Cid Campeador en la épica medieval.",
+    "feedback_incorrecto": "Fíjate en las palabras solemnes dedicadas al personaje histórico. ¿Se trata de un simple adjetivo común o de una fórmula célebre propia de la épica para exaltar al héroe?",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_19",
+    "poema_fragmento": "<span class=\"resaltado\">En el silencio solo se escuchaba<br>un susurro de abejas que sonaba.</span>",
+    "opciones": [
+      "Aliteración",
+      "Epíteto",
+      "Hipérbaton",
+      "Reiteración"
+    ],
+    "respuesta_correcta": "Aliteración",
+    "feedback_correcto": "¡Muy bien! Es una Aliteración porque la repetición reiterada del fonema sibilante 's' a lo largo del verso recrea acústicamente el zumbido suave del susurro de las abejas.",
+    "feedback_incorrecto": "Escucha atentamente el sonido predominante al leer los versos. ¿Qué fonema consonántico se reitera para imitar el ruido de la naturaleza?",
+    "es_bono": false
+  },
+  {
+    "id": "ejercicio_20",
+    "poema_fragmento": "Buscando mis amores<br><span class=\"resaltado\">iré por esos montes y riberas</span>;<br>ni cogeré las flores,<br>ni temeré las fieras,<br>y pasaré los fuertes y fronteras.",
+    "opciones": [
+      "Jitanjáfora",
+      "Encabalgamiento",
+      "Epíteto épico",
+      "Reiteración"
+    ],
+    "respuesta_correcta": "Encabalgamiento",
+    "feedback_correcto": "¡Bono Conquistado! Es un Encabalgamiento porque la frase iniciada en el primer verso necesita vincularse sin pausa con el verso siguiente para completar el sentido sintáctico del verbo.",
+    "feedback_incorrecto": "Observa la unión entre el verso 1 y el verso 2. ¿Podría el primer verso tener sentido gramatical pleno por sí solo o requiere empalmar de inmediato con el siguiente?",
+    "es_bono": true
+  }
+]
