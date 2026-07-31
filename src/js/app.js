@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
       elements.btnStartGame.disabled = true;
     }
 
-    fetch('./data/versions.json')
+    fetch('.src/data/versions.json')
       .then(respuesta => {
         if (!respuesta.ok) {
           throw new Error('No se pudo acceder al archivo JSON.');
