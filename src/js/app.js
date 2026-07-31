@@ -140,14 +140,12 @@ document.addEventListener('DOMContentLoaded', () => {
   function handleStartGame() {
     const alias = elements.userAliasInput?.value.trim() || 'Estudiante';
 
-    // Cambiamos el texto del botón temporalmente para indicar carga
     if (elements.btnStartGame) {
       elements.btnStartGame.textContent = 'CARGANDO...';
       elements.btnStartGame.disabled = true;
     }
 
-    // Opción A: Cargar el JSON de manera asíncrona
-    fetch('./src/data/versions.json')
+    fetch('./datos.json')
       .then(respuesta => {
         if (!respuesta.ok) {
           throw new Error('No se pudo acceder al archivo JSON.');
@@ -155,7 +153,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return respuesta.json();
       })
       .then(versionsData => {
-        // Restaurar botón
         if (elements.btnStartGame) {
           elements.btnStartGame.textContent = 'COMENZAR JUEGO';
           elements.btnStartGame.disabled = false;
@@ -175,7 +172,6 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error("Error al cargar los datos:", error);
         alert("Hubo un problema al cargar los ejercicios. Asegúrate de que el archivo JSON esté publicado correctamente.");
 
-        // Restaurar botón en caso de error
         if (elements.btnStartGame) {
           elements.btnStartGame.textContent = 'COMENZAR JUEGO';
           elements.btnStartGame.disabled = false;
@@ -197,6 +193,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const percentage = (hud.totalAnswered / hud.totalQuestions) * 100;
     if (elements.progressBarFill) elements.progressBarFill.style.width = `${percentage}%`;
     if (elements.progressText) elements.progressText.textContent = `Poema ${hud.currentQuestionIndex} de ${hud.totalQuestions}`;
+  }
+
+  /**
+   * Función para desordenar un arreglo aleatoriamente (Fisher-Yates)
+   */
+  function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
   }
 
   /**
@@ -239,7 +247,10 @@ document.addEventListener('DOMContentLoaded', () => {
       elements.optionsGrid.innerHTML = '';
       const letters = ['A', 'B', 'C', 'D'];
 
-      currentQ.opciones.forEach((opcionText, index) => {
+      // Aplicamos la mezcla aleatoria a las opciones
+      const opcionesDesordenadas = shuffleArray(currentQ.opciones);
+
+      opcionesDesordenadas.forEach((opcionText, index) => {
         const button = document.createElement('button');
         button.className = 'option-pill-btn';
         button.type = 'button';
